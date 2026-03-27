@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">记账本</string>
+    <string name="accessibility_service_description">监听微信、支付宝等支付应用的通知，自动识别付款信息并记录账单。</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_home">首页</string>
+    <string name="nav_record">记账</string>
+    <string name="nav_bills">账单</string>
+    <string name="nav_profile">我的</string>
+
+    <!-- 首页 -->
+    <string name="home_month_expense">本月支出</string>
+    <string name="home_today_title">今日小票</string>
+    <string name="home_today_total">今日合计</string>
+    <string name="home_no_bills">今天还没有消费记录哦～</string>
+
+    <!-- 记账 -->
+    <string name="record_title">记一笔</string>
+    <string name="record_floating_window">悬浮窗记账</string>
+    <string name="record_screen_capture">录屏记账</string>
+    <string name="record_screenshot">截图导入</string>
+    <string name="record_manual">手动记账</string>
+    <string name="record_floating_desc">在支付页面打开悬浮窗，一键截屏识别</string>
+    <string name="record_screen_desc">录制支付过程，自动提取账单信息</string>
+    <string name="record_screenshot_desc">选择支付截图，智能识别金额和收款方</string>
+    <string name="record_manual_desc">手动输入付款信息</string>
+
+    <!-- 账单 -->
+    <string name="bills_title">账单明细</string>
+    <string name="bills_search_hint">搜索收款方、金额、备注…</string>
+    <string name="bills_filter_all">全部</string>
+    <string name="bills_empty">暂无账单记录</string>
+
+    <!-- 账单详情 -->
+    <string name="detail_title">账单详情</string>
+    <string name="detail_amount">付款金额</string>
+    <string name="detail_payee">收款方</string>
+    <string name="detail_account">付款账户</string>
+    <string name="detail_platform">支付平台</string>
+    <string name="detail_tags">标签</string>
+    <string name="detail_remark">备注</string>
+    <string name="detail_date">交易时间</string>
+    <string name="detail_save">保存</string>
+    <string name="detail_delete">删除</string>
+    <string name="detail_add_tag">添加标签</string>
+    <string name="detail_remark_hint">添加备注…</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">我的</string>
+    <string name="settings_permissions">权限管理</string>
+    <string name="settings_overlay_permission">悬浮窗权限</string>
+    <string name="settings_accessibility_permission">无障碍服务</string>
+    <string name="settings_storage_permission">存储权限</string>
+    <string name="settings_workbooks">账本管理</string>
+    <string name="settings_data">数据管理</string>
+    <string name="settings_export_excel">导出Excel</string>
+    <string name="settings_import_bills">导入账单</string>
+    <string name="settings_about">关于</string>
+
+    <!-- 通用 -->
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="yuan">¥%s</string>
+    <string name="permission_not_granted">未开启</string>
+    <string name="permission_granted">已开启</string>
+    <string name="tag_hint">输入标签名</string>
+
+    <!-- OCR识别 -->
+    <string name="ocr_processing">正在识别中…</string>
+    <string name="ocr_success">识别成功</string>
+    <string name="ocr_failed">识别失败，请重试</string>
+    <string name="ocr_no_result">未识别到账单信息</string>
+
+    <!-- 录屏 -->
+    <string name="screen_record_start">开始录制</string>
+    <string name="screen_record_stop">停止录制</string>
+    <string name="screen_record_recording">正在录制…</string>
+    <string name="screen_record_processing">正在分析录制内容…</string>
+
+    <!-- 悬浮窗 -->
+    <string name="floating_window_title">悬浮窗记账</string>
+    <string name="floating_capture">截屏识别</string>
+    <string name="floating_close">关闭</string>
+
+    <!-- 账本 -->
+    <string name="workbook_default">默认账本</string>
+    <string name="workbook_create">新建账本</string>
+    <string name="workbook_name_hint">账本名称</string>
+    <string name="workbook_delete_confirm">确定删除该账本吗？删除后数据将无法恢复。</string>
+
+    <!-- 确认记账弹窗 -->
+    <string name="confirm_bill_title">确认账单信息</string>
+    <string name="confirm_bill_message">请确认以下识别到的付款信息是否正确</string>
+    <string name="confirm_bill_add">添加到账单</string>
+    <string name="confirm_bill_discard">丢弃</string>
+</resources>
